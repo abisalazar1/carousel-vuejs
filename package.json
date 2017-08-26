@@ -1,0 +1,31 @@
+{
+  "name": "carousel-vuejs",
+  "version": "1.0.0",
+  "description": "Carousel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abisalazar1/carousel-vuejs.git"
+  },
+  "keywords": [
+    "carousel",
+    "vuejs"
+  ],
+  "author": "Abi Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abisalazar1/carousel-vuejs/issues"
+  },
+  "homepage": "https://github.com/abisalazar1/carousel-vuejs#readme",
+  "dependencies": {
+    "cross-env": "^5.0.5",
+    "laravel-mix": "^1.4.2",
+    "vuejs": "^1.0.29"
+  }
+}
